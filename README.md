@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -103,6 +102,9 @@
         }
         .next-button:hover {
             background-color: #1669ce; /* Darker blue on hover */
+        }
+        h1{
+            color:white;
         }
 
   /* Footer styles */

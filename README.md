@@ -22,7 +22,7 @@
             border: 1px solid #dadce0; /* Google's border color */
             border-radius: 8px; /* Google's border radius */
             padding: 48px 40px 36px; /* Google's padding */
-            width: 100%;
+            width:800px%;
             max-width: 450px; /* Max width similar to Google's form */
             box-shadow: 0 1px 3px 0 rgba(60,64,67,.3), 0 4px 8px 3px rgba(60,64,67,.15); /* Subtle Google-like shadow */
             margin-bottom: 24px; /* Space between form and footer */
